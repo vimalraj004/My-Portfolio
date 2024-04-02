@@ -141,7 +141,7 @@ html{
 
 /* --------------------------Mobile responsive(navbar) ------------------------------------------------------------- */
 
-@media (max-width: 376px) {
+@media (max-width: 426px) {
     #nav {
     
       height: 10vh;
@@ -293,7 +293,7 @@ html{
     margin-left: 45px !important;
 }
 /* --------------------------Mobile responsive(Home) ----------------------------------------------------------- */
-@media (max-width:376px){
+@media (max-width:426px){
     #home{
         height: 150vh;
         width: 100%;
@@ -388,7 +388,7 @@ html{
    font-size: 20px;
  }
 /* --------------------------Mobile responsive(About) ----------------------------------------------------------- */
-@media (max-width:376px){
+@media (max-width:426px){
     #About{
         height: auto;
         width: 100%;
@@ -607,7 +607,7 @@ position: relative;
 z-index: 2;
 }
 /* --------------------------Mobile responsive(skills) ----------------------------------------------------------- */
-@media (max-width:376px){
+@media (max-width:426px){
     #skills{
         height: auto;
         width: 100%;
@@ -759,7 +759,7 @@ z-index: 2;
     height: 70%;
     }
 /* --------------------------Mobile responsive(Projects) ----------------------------------------------------------- */
-@media (max-width:376px){
+@media (max-width:426px){
     #Project{
         height:auto !important ;
         width: 100%;
@@ -870,7 +870,7 @@ z-index: 2;
     align-items: center;
 }
 /* --------------------------Mobile responsive(contact) ----------------------------------------------------------- */
-  @media (max-width:376px){
+  @media (max-width:426px){
     #Contact{
         height:auto !important;
         width: 100%;
@@ -919,7 +919,7 @@ z-index: 2;
     width: 100%;
 }
 /* --------------------------Mobile responsive(contact) ----------------------------------------------------------- */
-@media (max-width:376px){
+@media (max-width:426px){
     #Copyrights{
         height: 10vh;
         width: 100%;
