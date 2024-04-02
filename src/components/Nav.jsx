@@ -1,0 +1,53 @@
+import React, { useContext } from 'react'
+import { Icon, IconButton } from '@mui/material';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+// import MenuIcon from '@mui/icons-material/Menu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import {faXmark} from '@fortawesome/free-solid-svg-icons';
+
+import style from "./Style.module.css"
+import { Link } from 'react-scroll'
+
+import About from './About'
+import { themevalue } from '../App'
+
+
+
+const Nav = () => {
+ let {theme}= useContext(themevalue)
+ let {ltdt}=useContext(themevalue)
+
+
+  return (
+    <div id={style.nav} style={{background:theme?"white":"black",color:theme?"black":"white"}}>
+        <div id={style.navp1}>
+            <h1 style={{marginLeft:"70px"}}><span style={{color:"red"}}>D</span>EVELOPE<span style={{color:"red"}}>R</span></h1>
+        </div>
+        <div id={style.navp2}>
+            <input type="checkbox" id="click"/>
+              <label for="click" id={style.openmenubar}>
+                  
+                    <FontAwesomeIcon icon={faBars} />
+             </label>
+          
+             
+            <ol>
+               
+                <li><Link to={style.home} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >Home</Link></li>
+                <li><Link to={style.About} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >About</Link></li>
+                <li><Link to={style.skills} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >Skills</Link></li>
+                <li><Link to={style.Project} spy={true} smooth={true}offset={0} duration={50}  style={{textDecoration:"none",fontSize:"20px",position:"relative"}}>Projects</Link></li>
+                <li><Link to={style.Contact} spy={true} smooth={true}offset={0} duration={50}  style={{textDecoration:"none",fontSize:"20px",position:"relative"}}>Contact</Link></li>
+                <Link style={{textDecoration:"none",fontSize:"20px",position:"relative"}}><IconButton onClick={ltdt}>{theme?<DarkModeIcon sx={{fill:theme?"black":"white"}}/>:<LightModeIcon sx={{fill:theme?"black":"white"}}/>}</IconButton></Link>
+                
+            </ol>
+          
+        </div>
+
+    </div>
+  )
+}
+
+export default Nav
