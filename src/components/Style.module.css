@@ -1182,7 +1182,7 @@ z-index: 2;
     #Contact>#Contactp1{
         height: 100% !important;
         width: 90% !important ;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1198,20 +1198,20 @@ z-index: 2;
         
     }
     #Contact>#Contactp1>#phone{
-        margin-left: 30px !important;
+        margin-left: 15px !important;
         font-size: 13px;
         
         
     }
     #Contact>#Contactp1>#email{
-        margin-left: 30px !important;
+        margin-left: 15px !important;
         font-size: 13px;
         
         
     }
     #Contact>#Contactp1>#media{
           font-size: 12px;
-          margin-left: 30px !important;
+          margin-left: 15px !important;
     }
     #Contactp2{
         height: auto !important;
