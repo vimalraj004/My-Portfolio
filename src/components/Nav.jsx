@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext,useEffect } from 'react'
 import { Icon, IconButton } from '@mui/material';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
@@ -13,12 +13,15 @@ import { Link } from 'react-scroll'
 import About from './About'
 import { themevalue } from '../App'
 
-
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 const Nav = () => {
  let {theme}= useContext(themevalue)
  let {ltdt}=useContext(themevalue)
-
+ useEffect(()=>{
+  Aos.init({duration:9000});
+},[])
 
   return (
     <div id={style.nav} style={{background:theme?"white":"black",color:theme?"black":"white"}}>
@@ -33,7 +36,7 @@ const Nav = () => {
              </label>
           
              
-            <ol>
+            <ol  style={{background:theme?"white":"black",color:theme?"black":"white"}} >
                
                 <li><Link to={style.home} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >Home</Link></li>
                 <li><Link to={style.About} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >About</Link></li>

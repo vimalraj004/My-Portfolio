@@ -33,9 +33,8 @@ After completeing my graduation,I joined in jspiders to purse MERN full stack de
 • I am equially good working on backend like nodejs,expressjs<br/>
 • I am capable of handling Mongodb and SQL queries also<br/>
 • Utilized Tailwind CSS | Bootstrap 5 | Material UI frameworks to enhance project aesthetics and functionality</p>
-<div id="readmorepara" style={{display:readmore?"block":"none",fontSize:"20px",marginLeft:"30px",marginTop:"10px",lineHeight:"25px"}}>
-  <p>• I have worked on 6 Projects using these technologies with the guidence of the faculty at Jspiders.I consider myself as a result oriented person, I usually complete the tasks before the deadlines.<br/><br/>• I am adabtable to work in teams, I take the feedback of the seniors positivily.I am willing to work under the guidence of seniors.I am here seeking opportunity to put my education & skills into real-time project work.I want mentorship to groom my skills for the future projects of the company.I will be happy to get this opportunity & I am sure I will not disappoint my selection.
-</p>
+<div id="readmorepara" style={{display:readmore?"block":"none"}}>
+  <p style={{fontSize:"18px",marginLeft:"30px",marginTop:"10px",lineHeight:"25px"}}>• I have worked on 6 Projects using these technologies with the guidence of the faculty at Jspiders.I consider myself as a result oriented person, I usually complete the tasks before the deadlines.<br/><br/>• I am adabtable to work in teams, I take the feedback of the seniors positivily.I am willing to work under the guidence of seniors.I am here seeking opportunity to put my education & skills into real-time project work.I want mentorship to groom my skills for the future projects of the company.I will be happy to get this opportunity & I am sure I will not disappoint my selection.</p>
 
 </div>
 

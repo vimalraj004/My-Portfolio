@@ -54,7 +54,7 @@ const Project = () => {
                 </div>
              </div>
              </div>
-             <Button onClick={getseemore} varient="contained" sx={{bgcolor:"red",color:"white",marginTop:"60px",marginLeft:{lg:"700px",md:"300px"},display:seemore?"none":"block"}}>See More</Button>
+             <Button className={style.button} onClick={getseemore} varient="contained" sx={{bgcolor:"red",color:"white",marginTop:"60px",marginLeft:{lg:"700px",md:"300px"},display:seemore?"none":"block"}}>See More</Button>
         <div id={style.cardsp2}>
           <div id={style.card1}>
                 <img src={img4} alt="" style={{width:"100%",height:"100%"}} />

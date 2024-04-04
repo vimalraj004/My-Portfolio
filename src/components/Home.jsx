@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div id={style.home} style={{backgroundColor:theme?"white":"black",color:theme?"black":"white"}}>
       <div id={style.home2}>
-            <img style={{height:"900px",width:"500px",marginLeft:"90px",marginTop:"120px"}} src={img1} alt="" />
+            <img className={style.img}  src={img1} alt="" />
          </div>
          <div id={style.home1}>
         <h1> Hi !  I'm <span style={{color:"red"}}>V</span>imalra<span style={{color:"red"}}>j</span></h1>  

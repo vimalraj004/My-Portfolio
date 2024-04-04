@@ -117,7 +117,7 @@ const Skills = () => {
       <div id={style.heading} style={{display:"flex",justifyContent:"center"}} data-aos="fade-down"><h1 style={{fontSize:"50px",marginTop:"60px"}}><span style={{color:"red"}}>S</span>kill<span  style={{color:"red"}}>s</span></h1></div>
       <div id={style.wrapup}>
       <div id={style.skillsp1}>
-        <h1 style={{marginLeft:"190px"}} data-aos="fade-right"><span style={{color:"red"}}>T</span>echnical Skill<span style={{color:"red"}}>s</span></h1>
+        <h1 style={{marginLeft:"180px"}} data-aos="fade-right"><span style={{color:"red"}}>T</span>echnical Skill<span style={{color:"red"}}>s</span></h1>
         <section id={style.containers} data-aos="fade-right" style={{marginLeft:"60px"}}>
                <div id={style.text}>
                 <img src={html} style={{backgroundColor:"black",height:"40px",width:"40px"}} alt="" />
