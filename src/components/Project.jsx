@@ -25,7 +25,7 @@ const Project = () => {
   },[])
   return (
     <div id={style.Project} style={{ height:seemore?"130vh":"76vh", overflow: "hidden",backgroundColor:theme?"white":"black",color:theme?"black":"white"}}>
-        <h1 style={{textAlign:"center",fontSize:"40px",marginTop:"70px"}} data-aos="fade-down"><span style={{color:"red"}}>P</span>ROJECT<span style={{color:"red"}}>S</span></h1>
+        <h1 style={{textAlign:"center",fontSize:"40px",marginTop:"70px"}} data-aos="fade-down"><span style={{color:"red"}}>P</span>roject<span style={{color:"red"}}>s</span></h1>
         <div id={style.cardsp1} data-aos="fade-up">
              <div id={style.card1}>
                 <img src={img1} alt="" style={{width:"100%",height:"100%"}} />

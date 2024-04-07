@@ -10,7 +10,7 @@ const Certificate = () => {
     let {ltdt}=useContext(themevalue)
   return (
     <div id={style.Certificate} style={{backgroundColor:theme?"white":"black",color:theme?"black":"white"}}>
-         <h1 style={{textAlign:"center",fontSize:"40px"}} data-aos="fade-down"><span style={{color:"red"}}>C</span>ERTIFICAT<span style={{color:"red"}}>E</span></h1>
+         <h1 style={{textAlign:"center",fontSize:"40px"}} data-aos="fade-down"><span style={{color:"red"}}>C</span>ertificat<span style={{color:"red"}}>e</span></h1>
          <div id={style.cardsp1} data-aos="fade-up">
              <div id={style.certicard1}>
                 <img src={jsp} alt="" style={{width:"100%",height:"100%"}} />
