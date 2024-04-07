@@ -1,7 +1,7 @@
 import React from 'react'
 import style from "./Style.module.css"
 import img1 from "./Assets/Picsart_23-12-11_23-33-18-485.png"
-import resume from "./Assets/Vimalraj Resume.pdf"
+import resume from "./Assets/Vimalraj Newresume.pdf"
 import { useTypewriter,Cursor, Typewriter } from 'react-simple-typewriter'
 import { Button } from '@mui/material'
 import { themevalue } from '../App'
