@@ -797,10 +797,21 @@ position: relative;
 z-index: 2;
 }
 /* --------------------------Mobile responsive(skills) ----------------------------------------------------------- */
+@media (max-width:321px){
+   
+    #circlepart2>#circleprograssbar{
+        margin-left:2px !important;
+        /* border: 2px solid red; */
+    }
+}
 @media (max-width:376px){
     #skillsp2>h1{
         /* border: 2px solid red; */
         font-size: 32px !important;
+    }
+    #circlepart2>#circleprograssbar{
+        margin-left:2px !important;
+        /* border: 2px solid red; */
     }
 }
 @media (max-width:426px){
@@ -896,7 +907,8 @@ z-index: 2;
     z-index: 2;
     }
     #circlepart2>#circleprograssbar{
-        margin-left: 30px;
+        margin-left: 1px !important;
+        /* border: 2px solid red; */
     }
     #circleprograssbar>h3{
          font-size: 15px;
@@ -922,6 +934,9 @@ z-index: 2;
         margin-left: 50px !important;
         /* border: 2px solid red; */
     }
+    #circlepart2>#circleprograssbar{
+        margin-left: 2px !important;
+    }
 }
 
 @media (max-width:1025px){
@@ -930,7 +945,7 @@ z-index: 2;
         height: auto;
     }
     #circlepart2>#circleprograssbar{
-        margin-left: 40px;
+        margin-left: 5px;
     }
     #heading>h1{
         font-size: 35px !important;
