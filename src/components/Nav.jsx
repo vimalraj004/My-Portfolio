@@ -26,7 +26,7 @@ const Nav = () => {
   return (
     <div id={style.nav} style={{background:theme?"white":"black",color:theme?"black":"white"}}>
         <div id={style.navp1}>
-            <h1 style={{marginLeft:"70px"}}><span style={{color:"red"}}>D</span>EVELOPE<span style={{color:"red"}}>R</span></h1>
+            <h1 style={{marginLeft:"70px"}}><span style={{color:"red"}}>P</span>ORTFOLI<span style={{color:"red"}}>O</span></h1>
         </div>
         <div id={style.navp2}>
             <input type="checkbox" id="click"/>
@@ -42,6 +42,7 @@ const Nav = () => {
                 <li><Link to={style.About} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >About</Link></li>
                 <li><Link to={style.skills} spy={true} smooth={true}offset={0} duration={50} style={{textDecoration:"none",fontSize:"20px",position:"relative"}} >Skills</Link></li>
                 <li><Link to={style.Project} spy={true} smooth={true}offset={0} duration={50}  style={{textDecoration:"none",fontSize:"20px",position:"relative"}}>Projects</Link></li>
+                <li><Link to={style.Certificate} spy={true} smooth={true}offset={0} duration={50}  style={{textDecoration:"none",fontSize:"20px",position:"relative"}}>Certificate</Link></li>
                 <li><Link to={style.Contact} spy={true} smooth={true}offset={0} duration={50}  style={{textDecoration:"none",fontSize:"20px",position:"relative"}}>Contact</Link></li>
                 <Link style={{textDecoration:"none",fontSize:"20px",position:"relative"}}><IconButton onClick={ltdt}>{theme?<DarkModeIcon sx={{fill:theme?"black":"white"}}/>:<LightModeIcon sx={{fill:theme?"black":"white"}}/>}</IconButton></Link>
                 

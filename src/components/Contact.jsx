@@ -58,11 +58,11 @@ let submit=()=>{
          
            <div id={style.media} style={{display:"flex",marginLeft:"70px",marginTop:"20px"}}>
            <h2 style={{marginLeft:"18px"}}><a href='https://www.linkedin.com/in/vimalrajj04' target='_blank'><LinkedInIcon style={{fontSize:"30px",fill:"red",marginRight:"20px"}}/></a></h2>
-           <h2> www.linkedin.com/in/vimalrajj04</h2>
+           <h2><a href="https://www.linkedin.com/in/vimalrajj04" style={{color:"white",textDecoration:"none"}} >www.linkedin.com/in/vimalrajj04</a></h2>
            </div>
            <div id={style.media} style={{display:"flex",marginLeft:"70px",marginTop:"20px"}}>
            <h2 style={{marginLeft:"22px"}}><a href='https://github.com/vimalraj004' target='_blank'><GitHubIcon style={{fontSize:"30px",fill:"red",marginRight:"20px",}}/></a></h2>
-           <h2> https://github.com/vimalraj004</h2>
+           <h2><a href="https://github.com/vimalraj004" style={{color:"white",textDecoration:"none"}}>vimalraj004</a></h2>
            </div>
          </div>
          <div id={style.Contactp2} data-aos="fade-down" >
