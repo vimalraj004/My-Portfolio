@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import { Copyright } from '@mui/icons-material'
 import Copyrights from './components/Copyrights'
 import Project from './components/Project'
+import Certificate from './components/Certificate'
 
 
 export let themevalue=createContext()
@@ -32,6 +33,7 @@ let ltdt=()=>{
         <About/>
          <Skills/>
         <Project/>
+        <Certificate/>
         <Contact/>
         <Copyrights/> 
        </themevalue.Provider>
